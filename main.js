@@ -3,10 +3,11 @@
 let myButton = document.querySelector("button");
 let myHeading = document.querySelector("h3");
 
-myButton.style.width = "200px"; // Adjust the width as needed
-myButton.style.height = "80px"; // Adjust the height as needed
+
 myButton.style.top = "10px"; // Adjust the distance from the top as needed
 myButton.style.left = "20%"; // Adjust the horizontal positioning as needed
+myButton.style.width = "200px"; // Adjust the width as needed
+myButton.style.height = "80px"; // Adjust the height as needed
 
 function setUserName() {
     const myName = prompt("Please enter your name.");
